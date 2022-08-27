@@ -14,3 +14,32 @@ a {
 	text-decoration: none;
     margin-top: 50px;
 }
+
+button {
+    font-size: 20px;
+    width: 50px;
+}
+
+#number-box {
+    margin-top: 40px;
+}
+
+.calculator-container {
+    border: 1px solid white;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.all-buttons {
+    margin-top: 20px;
+}
+
+.row-1, .row-2, .row-3, .row-4{
+    margin-bottom: 7px;
+}
+
+#equals-btn {
+    width: 103.5px;
+}

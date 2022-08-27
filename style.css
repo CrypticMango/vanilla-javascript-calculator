@@ -1,47 +1,50 @@
 body {
 	background-color: black;
 	color: white;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0;
-    min-height: 100vh;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0;
+	min-height: 100vh;
 }
 
 a {
 	color: white;
 	text-decoration: none;
-    margin-top: 50px;
+	margin-top: 50px;
 }
 
 button {
-    font-size: 20px;
-    width: 50px;
+	font-size: 20px;
+	width: 50px;
 }
 
 #number-box {
-    margin-top: 40px;
-    height: 30px;
-    width: 205px;
+	margin-top: 40px;
+	height: 30px;
+	width: 205px;
 }
 
 .calculator-container {
-    border: 1px solid white;
-    width: 300px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
+	border: 1px solid white;
+	width: 300px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
 }
 
 .all-buttons {
-    margin-top: 20px;
+	margin-top: 20px;
 }
 
-.row-1, .row-2, .row-3, .row-4{
-    margin-bottom: 7px;
+.row-1,
+.row-2,
+.row-3,
+.row-4 {
+	margin-bottom: 7px;
 }
 
 #equals-btn {
-    width: 103.5px;
+	width: 103.5px;
 }

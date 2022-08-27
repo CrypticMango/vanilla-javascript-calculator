@@ -8,8 +8,8 @@ const numberBox = document.getElementById("number-box");
 console.log(sevenButton);
 console.log(numberBox);
 
-sevenButton.addEventListener('click', pressSeven);
+sevenButton.addEventListener("click", pressSeven);
 
 function pressSeven() {
-    numberBox.value = 7;
+	numberBox.value = 7;
 }

@@ -83,3 +83,13 @@ const multiply = document.getElementById("multiply-btn");
 const minus = document.getElementById("minus-btn");
 const add = document.getElementById("addition-btn");
 const equals = document.getElementById("equals-btn");
+
+//Operation button event listeners
+
+clear.addEventListener("click", pressClear);
+
+//Operation button functions
+
+function pressClear() {
+	numberBox.value = " ";
+}

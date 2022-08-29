@@ -88,6 +88,7 @@ const equals = document.getElementById("equals-btn");
 
 clear.addEventListener("click", pressClear);
 plusMinusBtn.addEventListener("click", pressPlusMinus);
+add.addEventListener("click", pressAdd);
 
 //Operation button functions
 
@@ -97,4 +98,8 @@ function pressClear() {
 
 function pressPlusMinus() {
 	numberBox.value = "-" + numberBox.value;
+}
+
+function pressAdd() {
+	btn.style.backgroundColor = 'salmon';
 }

@@ -76,7 +76,7 @@ function pressDecimal() {
 //Operation button variables
 
 const clear = document.getElementById("clear-btn");
-const plusMinus = document.getElementById("plus-minus-btn");
+const plusMinusBtn = document.getElementById("plus-minus-btn");
 const percentage = document.getElementById("percentage-btn");
 const divide = document.getElementById("division-btn");
 const multiply = document.getElementById("multiply-btn");
@@ -87,9 +87,14 @@ const equals = document.getElementById("equals-btn");
 //Operation button event listeners
 
 clear.addEventListener("click", pressClear);
+plusMinusBtn.addEventListener("click", pressPlusMinus);
 
 //Operation button functions
 
 function pressClear() {
 	numberBox.value = " ";
+}
+
+function pressPlusMinus() {
+	numberBox.value = "-" + numberBox.value;
 }

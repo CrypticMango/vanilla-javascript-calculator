@@ -89,11 +89,18 @@ const equals = document.getElementById("equals-btn");
 clear.addEventListener("click", pressClear);
 plusMinusBtn.addEventListener("click", pressPlusMinus);
 add.addEventListener("click", pressAdd);
+minus.addEventListener("click", pressMinus);
+multiply.addEventListener("click", pressMultiply);
+divide.addEventListener("click", pressDivide);
 
 //Operation button functions
 
 function pressClear() {
 	numberBox.value = " ";
+	document.getElementById("addition-btn").style.background = 'white';
+	document.getElementById("minus-btn").style.background = 'white';
+	document.getElementById("multiply-btn").style.background = 'white';
+	document.getElementById("division-btn").style.background = 'white';
 }
 
 function pressPlusMinus() {
@@ -101,5 +108,29 @@ function pressPlusMinus() {
 }
 
 function pressAdd() {
-	btn.style.backgroundColor = 'salmon';
+	document.getElementById("addition-btn").style.background = 'salmon';
+	document.getElementById("minus-btn").style.background = 'white';
+	document.getElementById("multiply-btn").style.background = 'white';
+	document.getElementById("division-btn").style.background = 'white';
+}
+
+function pressMinus() {
+	document.getElementById("addition-btn").style.background = 'white';
+	document.getElementById("minus-btn").style.background = 'salmon';
+	document.getElementById("multiply-btn").style.background = 'white';
+	document.getElementById("division-btn").style.background = 'white';
+}
+
+function pressMultiply() {
+	document.getElementById("addition-btn").style.background = 'white';
+	document.getElementById("minus-btn").style.background = 'white';
+	document.getElementById("multiply-btn").style.background = 'salmon';
+	document.getElementById("division-btn").style.background = 'white';
+}
+
+function pressDivide() {
+	document.getElementById("addition-btn").style.background = 'white';
+	document.getElementById("minus-btn").style.background = 'white';
+	document.getElementById("multiply-btn").style.background = 'white';
+	document.getElementById("division-btn").style.background = 'salmon';
 }

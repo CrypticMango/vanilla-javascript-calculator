@@ -92,8 +92,13 @@ add.addEventListener("click", pressAdd);
 minus.addEventListener("click", pressMinus);
 multiply.addEventListener("click", pressMultiply);
 divide.addEventListener("click", pressDivide);
+percentage.addEventListener("click", pressPercentage);
 
 //Operation button functions
+
+function pressPercentage() {
+	numberBox.value = "0." + numberBox.value;
+}
 
 function pressClear() {
 	numberBox.value = " ";
@@ -106,6 +111,7 @@ function pressClear() {
 function pressPlusMinus() {
 	numberBox.value = "-" + numberBox.value;
 }
+
 
 function pressAdd() {
 	document.getElementById("addition-btn").style.background = 'salmon';

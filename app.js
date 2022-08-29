@@ -30,47 +30,47 @@ decimalPoint.addEventListener("click", pressDecimal);
 //number button functions
 
 function pressZero() {
-	numberBox.value = 0;
+	numberBox.value = numberBox.value + 0;
 }
 
 function pressOne() {
-	numberBox.value = 1;
+	numberBox.value = numberBox.value + 1;
 }
 
 function pressTwo() {
-	numberBox.value = 2;
+	numberBox.value = numberBox.value + 2;
 }
 
 function pressThree() {
-	numberBox.value = 3;
+	numberBox.value = numberBox.value + 3;
 }
 
 function pressFour() {
-	numberBox.value = 4;
+	numberBox.value = numberBox.value + 4;
 }
 
 function pressFive() {
-	numberBox.value = 5;
+	numberBox.value = numberBox.value + 5;
 }
 
 function pressSix() {
-	numberBox.value = 6;
+	numberBox.value = numberBox.value + 6;
 }
 
 function pressSeven() {
-	numberBox.value = 7;
+	numberBox.value = numberBox.value + 7;
 }
 
 function pressEight() {
-	numberBox.value = 8;
+	numberBox.value = numberBox.value + 8;
 }
 
 function pressNine() {
-	numberBox.value = 9;
+	numberBox.value = numberBox.value + 9;
 }
 
 function pressDecimal() {
-	numberBox.value = '.';
+	numberBox.value = numberBox.value + '.';
 }
 
 //Operation button variables

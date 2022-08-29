@@ -2,25 +2,15 @@
 
 //testing button function
 const zeroButton = document.getElementById("zero-btn");
-
 const oneButton = document.getElementById("one-btn");
-
 const twoButton = document.getElementById("two-btn");
-
 const threeButton = document.getElementById("three-btn");
-
 const fourButton = document.getElementById("four-btn");
-
 const fiveButton = document.getElementById("five-btn");
-
 const sixButton = document.getElementById("six-btn");
-
 const sevenButton = document.getElementById("seven-btn");
-
 const eightButton = document.getElementById("eight-btn");
-
 const nineButton = document.getElementById("nine-btn");
-
 const numberBox = document.getElementById("number-box");
 
 console.log(sevenButton);
@@ -77,5 +67,3 @@ function pressEight() {
 function pressNine() {
 	numberBox.value = 9;
 }
-
-

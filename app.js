@@ -1,4 +1,5 @@
 //number button variables
+
 const zeroButton = document.getElementById("zero-btn");
 const oneButton = document.getElementById("one-btn");
 const twoButton = document.getElementById("two-btn");
@@ -12,19 +13,7 @@ const nineButton = document.getElementById("nine-btn");
 const numberBox = document.getElementById("number-box");
 const decimalPoint = document.getElementById("decimal-btn");
 
-//Operation button variables
-
-const clear = document.getElementById("clear-btn");
-const plusMinus = document.getElementById("plus-minus-btn");
-const percentage = document.getElementById("percentage-btn");
-const divide = document.getElementById("division-btn");
-const multiply = document.getElementById("multiply-btn");
-const minus = document.getElementById("minus-btn");
-const add = document.getElementById("addition-btn");
-const equals = document.getElementById("equals-btn");
-
-console.log(sevenButton);
-console.log(numberBox);
+//number button event listeners
 
 zeroButton.addEventListener("click", pressZero);
 oneButton.addEventListener("click", pressOne);
@@ -38,6 +27,7 @@ eightButton.addEventListener("click", pressEight);
 nineButton.addEventListener("click", pressNine);
 decimalPoint.addEventListener("click", pressDecimal);
 
+//number button functions
 
 function pressZero() {
 	numberBox.value = 0;
@@ -82,3 +72,14 @@ function pressNine() {
 function pressDecimal() {
 	numberBox.value = '.';
 }
+
+//Operation button variables
+
+const clear = document.getElementById("clear-btn");
+const plusMinus = document.getElementById("plus-minus-btn");
+const percentage = document.getElementById("percentage-btn");
+const divide = document.getElementById("division-btn");
+const multiply = document.getElementById("multiply-btn");
+const minus = document.getElementById("minus-btn");
+const add = document.getElementById("addition-btn");
+const equals = document.getElementById("equals-btn");

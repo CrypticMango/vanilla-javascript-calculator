@@ -98,7 +98,7 @@ equals.addEventListener("click", pressEquals);
 //Operation button functions
 
 function pressEquals() {
-	
+
 }
 
 function pressPercentage() {
@@ -118,12 +118,22 @@ function pressPlusMinus() {
 }
 
 
-function pressAdd() {
+function pressAdd(num1, num2) {
+
 	document.getElementById("addition-btn").style.background = 'salmon';
 	document.getElementById("minus-btn").style.background = 'white';
 	document.getElementById("multiply-btn").style.background = 'white';
 	document.getElementById("division-btn").style.background = 'white';
+	
+	let button = document.getElementById("eight-btn").innerText;
+
+	console.log(button);
+
+	let answer = num1 + num2;
+	return answer;
 }
+
+console.log(pressAdd(10,2))
 
 function pressMinus() {
 	document.getElementById("addition-btn").style.background = 'white';

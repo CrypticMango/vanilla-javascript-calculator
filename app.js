@@ -93,8 +93,13 @@ minus.addEventListener("click", pressMinus);
 multiply.addEventListener("click", pressMultiply);
 divide.addEventListener("click", pressDivide);
 percentage.addEventListener("click", pressPercentage);
+equals.addEventListener("click", pressEquals);
 
 //Operation button functions
+
+function pressEquals() {
+	
+}
 
 function pressPercentage() {
 	numberBox.value = "0." + numberBox.value;

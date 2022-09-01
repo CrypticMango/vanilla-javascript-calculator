@@ -70,7 +70,7 @@ function pressNine() {
 }
 
 function pressDecimal() {
-	numberBox.value = numberBox.value + '.';
+	numberBox.value = numberBox.value + ".";
 }
 
 //Operation button variables
@@ -98,7 +98,9 @@ equals.addEventListener("click", pressEquals);
 //Operation button functions
 
 function pressEquals() {
-
+	if (numberBox.value == "+") {
+		console.log(20);
+	}
 }
 
 function pressPercentage() {
@@ -107,51 +109,56 @@ function pressPercentage() {
 
 function pressClear() {
 	numberBox.value = " ";
-	document.getElementById("addition-btn").style.background = 'white';
-	document.getElementById("minus-btn").style.background = 'white';
-	document.getElementById("multiply-btn").style.background = 'white';
-	document.getElementById("division-btn").style.background = 'white';
+	document.getElementById("addition-btn").style.background = "white";
+	document.getElementById("minus-btn").style.background = "white";
+	document.getElementById("multiply-btn").style.background = "white";
+	document.getElementById("division-btn").style.background = "white";
 }
 
 function pressPlusMinus() {
 	numberBox.value = "-" + numberBox.value;
 }
 
+function pressAdd() {
+	document.getElementById("addition-btn").style.background = "salmon";
+	document.getElementById("minus-btn").style.background = "white";
+	document.getElementById("multiply-btn").style.background = "white";
+	document.getElementById("division-btn").style.background = "white";
 
-function pressAdd(num1, num2) {
+	numberBox.value = numberBox.value + "+";
 
-	document.getElementById("addition-btn").style.background = 'salmon';
-	document.getElementById("minus-btn").style.background = 'white';
-	document.getElementById("multiply-btn").style.background = 'white';
-	document.getElementById("division-btn").style.background = 'white';
-	
-	let button = document.getElementById("eight-btn").innerText;
+	let button1 = document.getElementById("eight-btn").innerText;
+	let button2 = document.getElementById("nine-btn").innerText;
 
-	console.log(button);
-
-	let answer = num1 + num2;
+	let answer = +button1 + +button2;
 	return answer;
 }
 
-console.log(pressAdd(10,2))
+console.log(pressAdd(10, 2));
 
 function pressMinus() {
-	document.getElementById("addition-btn").style.background = 'white';
-	document.getElementById("minus-btn").style.background = 'salmon';
-	document.getElementById("multiply-btn").style.background = 'white';
-	document.getElementById("division-btn").style.background = 'white';
+	document.getElementById("addition-btn").style.background = "white";
+	document.getElementById("minus-btn").style.background = "salmon";
+	document.getElementById("multiply-btn").style.background = "white";
+	document.getElementById("division-btn").style.background = "white";
+
+	numberBox.value = numberBox.value + "-";
 }
 
 function pressMultiply() {
-	document.getElementById("addition-btn").style.background = 'white';
-	document.getElementById("minus-btn").style.background = 'white';
-	document.getElementById("multiply-btn").style.background = 'salmon';
-	document.getElementById("division-btn").style.background = 'white';
+	document.getElementById("addition-btn").style.background = "white";
+	document.getElementById("minus-btn").style.background = "white";
+	document.getElementById("multiply-btn").style.background = "salmon";
+	document.getElementById("division-btn").style.background = "white";
+
+	numberBox.value = numberBox.value + "*";
 }
 
 function pressDivide() {
-	document.getElementById("addition-btn").style.background = 'white';
-	document.getElementById("minus-btn").style.background = 'white';
-	document.getElementById("multiply-btn").style.background = 'white';
-	document.getElementById("division-btn").style.background = 'salmon';
+	document.getElementById("addition-btn").style.background = "white";
+	document.getElementById("minus-btn").style.background = "white";
+	document.getElementById("multiply-btn").style.background = "white";
+	document.getElementById("division-btn").style.background = "salmon";
+
+	numberBox.value = numberBox.value + "÷";
 }

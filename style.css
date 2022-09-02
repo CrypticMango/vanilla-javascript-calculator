@@ -1,15 +1,15 @@
 :root {
 	--teal: #008080;
-	--aquamarine: #7FFFD4;
-	--aqua: #00FFFF;
+	--aquamarine: #7fffd4;
+	--aqua: #00ffff;
 
-	--pastel-yellow: #FDFD96;
-	--pastel-pink: #F8C8DC;
-	--pastel-gray: #D1CEC5;
+	--pastel-yellow: #fdfd96;
+	--pastel-pink: #f8c8dc;
+	--pastel-gray: #d1cec5;
 }
 
 body {
-	background-color: #6F6FAB;
+	background-color: #6f6fab;
 	color: #232336;
 	align-items: center;
 	display: flex;
@@ -17,7 +17,7 @@ body {
 	justify-content: center;
 	margin: 0;
 	min-height: 100vh;
-	font-family: 'Righteous', cursive;
+	font-family: "Righteous", cursive;
 }
 
 a {
@@ -37,11 +37,11 @@ button {
 	margin: 2px 2px 2px 2px;
 	border: 0px solid #5c5f5f;
 	border-bottom: 5px solid #5c5f5f;
-	font-family: 'Righteous', cursive;
+	font-family: "Righteous", cursive;
 }
 
 button:hover {
-	background-color: #6F6FAB;
+	background-color: #6f6fab;
 	border-bottom: 5px solid var(--pastel-yellow);
 }
 
@@ -50,7 +50,7 @@ button:hover {
 	height: 50px;
 	width: 283px;
 	font-size: 25px;
-	font-family: 'Righteous', cursive;
+	font-family: "Righteous", cursive;
 	background-color: var(--pastel-yellow);
 	border-radius: 7px;
 	border: 0px solid var(--pastel-yellow);
@@ -65,7 +65,7 @@ button:hover {
 	height: 350px;
 	display: flex;
 	justify-content: center;
-	background-color:#df78a3;
+	background-color: #df78a3;
 	border-radius: 20px;
 	border: 4px solid var(--pastel-pink);
 }
@@ -94,7 +94,8 @@ button:hover {
 	border-bottom: 4px solid rgb(148, 148, 96);
 }
 
-#clear-btn:hover, #equals-btn:hover {
+#clear-btn:hover,
+#equals-btn:hover {
 	background-color: var(--pastel-pink);
-	border-bottom: 4px solid #6F6FAB;
+	border-bottom: 4px solid #6f6fab;
 }

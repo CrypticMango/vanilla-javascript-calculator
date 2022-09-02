@@ -1,3 +1,13 @@
+:root {
+	--teal: #008080;
+	--aquamarine: #7FFFD4;
+	--aqua: #00FFFF;
+
+	--pastel-yellow: #FDFD96;
+	--pastel-pink: #F8C8DC;
+	--pastel-gray: #D1CEC5;
+}
+
 body {
 	background-color: black;
 	color: white;

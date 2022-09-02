@@ -40,6 +40,10 @@ button {
 	font-family: 'Righteous', cursive;
 }
 
+button:hover {
+	background-color: #6F6FAB;
+}
+
 #number-box {
 	margin-top: 25px;
 	height: 50px;

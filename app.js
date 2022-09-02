@@ -99,7 +99,7 @@ equals.addEventListener("click", pressEquals);
 
 function pressEquals() {
 	result = eval(numberBox.value);
-	console.log(result);
+	numberBox.value = result;
 }
 
 function pressPercentage() {
@@ -115,7 +115,7 @@ function pressClear() {
 }
 
 function pressPlusMinus() {
-	numberBox.value = "-" + numberBox.value;
+	numberBox.value = "-" + numberBox.value.trim();
 }
 
 function pressAdd() {

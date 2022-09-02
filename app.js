@@ -98,13 +98,12 @@ equals.addEventListener("click", pressEquals);
 //Operation button functions
 
 function pressEquals() {
-	if (numberBox.value == "+") {
-		console.log(20);
-	}
+	result = eval(numberBox.value);
+	console.log(result);
 }
 
 function pressPercentage() {
-	numberBox.value = "0." + numberBox.value;
+	numberBox.value = "0." + numberBox.value.trim();
 }
 
 function pressClear() {
@@ -126,15 +125,10 @@ function pressAdd() {
 	document.getElementById("division-btn").style.background = "white";
 
 	numberBox.value = numberBox.value + "+";
-
-	let button1 = document.getElementById("eight-btn").innerText;
-	let button2 = document.getElementById("nine-btn").innerText;
-
-	let answer = +button1 + +button2;
-	return answer;
 }
 
-console.log(pressAdd(10, 2));
+console.log(eval("2 + 2"));
+
 
 function pressMinus() {
 	document.getElementById("addition-btn").style.background = "white";
@@ -160,5 +154,5 @@ function pressDivide() {
 	document.getElementById("multiply-btn").style.background = "white";
 	document.getElementById("division-btn").style.background = "salmon";
 
-	numberBox.value = numberBox.value + "÷";
+	numberBox.value = numberBox.value + "/";
 }

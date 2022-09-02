@@ -132,9 +132,6 @@ function pressAdd() {
 	numberBox.value = numberBox.value + "+";
 }
 
-console.log(eval("2 + 2"));
-
-
 function pressMinus() {
 	document.getElementById("addition-btn").style.background = "#D1CEC5";
 	document.getElementById("minus-btn").style.background = "#5c5f5f";

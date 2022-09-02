@@ -100,6 +100,11 @@ equals.addEventListener("click", pressEquals);
 function pressEquals() {
 	result = eval(numberBox.value);
 	numberBox.value = result;
+
+	document.getElementById("addition-btn").style.background = "#D1CEC5";
+	document.getElementById("minus-btn").style.background = "#D1CEC5";
+	document.getElementById("multiply-btn").style.background = "#D1CEC5";
+	document.getElementById("division-btn").style.background = "#D1CEC5";
 }
 
 function pressPercentage() {

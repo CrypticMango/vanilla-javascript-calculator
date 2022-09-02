@@ -50,6 +50,7 @@ button {
 	border-radius: 7px;
 	border: 0px solid var(--pastel-yellow);
 	border-bottom: 4px solid rgb(148, 148, 96);
+	text-align: right;
 }
 
 .calculator-container {

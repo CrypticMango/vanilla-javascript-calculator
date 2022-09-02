@@ -33,7 +33,7 @@ button {
 	height: 35px;
 	border-radius: 7px;
 	background-color: var(--pastel-gray);
-	color: black;
+	color: #232336;
 	margin: 2px 2px 2px 2px;
 	border: 0px solid #5c5f5f;
 	border-bottom: 5px solid #5c5f5f;
@@ -42,6 +42,7 @@ button {
 
 button:hover {
 	background-color: #6F6FAB;
+	border-bottom: 5px solid var(--pastel-yellow);
 }
 
 #number-box {
@@ -55,6 +56,7 @@ button:hover {
 	border: 0px solid var(--pastel-yellow);
 	border-bottom: 4px solid rgb(148, 148, 96);
 	text-align: right;
+	color: #37377c;
 }
 
 .calculator-container {
@@ -90,4 +92,9 @@ button:hover {
 	background-color: var(--pastel-yellow);
 	border: 0px solid var(--pastel-yellow);
 	border-bottom: 4px solid rgb(148, 148, 96);
+}
+
+#clear-btn:hover, #equals-btn:hover {
+	background-color: var(--pastel-pink);
+	border-bottom: 4px solid #6F6FAB;
 }

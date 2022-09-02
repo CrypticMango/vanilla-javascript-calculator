@@ -108,10 +108,10 @@ function pressPercentage() {
 
 function pressClear() {
 	numberBox.value = " ";
-	document.getElementById("addition-btn").style.background = "white";
-	document.getElementById("minus-btn").style.background = "white";
-	document.getElementById("multiply-btn").style.background = "white";
-	document.getElementById("division-btn").style.background = "white";
+	document.getElementById("addition-btn").style.background = "#D1CEC5";
+	document.getElementById("minus-btn").style.background = "#D1CEC5";
+	document.getElementById("multiply-btn").style.background = "#D1CEC5";
+	document.getElementById("division-btn").style.background = "#D1CEC5";
 }
 
 function pressPlusMinus() {
@@ -119,10 +119,10 @@ function pressPlusMinus() {
 }
 
 function pressAdd() {
-	document.getElementById("addition-btn").style.background = "salmon";
-	document.getElementById("minus-btn").style.background = "white";
-	document.getElementById("multiply-btn").style.background = "white";
-	document.getElementById("division-btn").style.background = "white";
+	document.getElementById("addition-btn").style.background = "#5c5f5f";
+	document.getElementById("minus-btn").style.background = "#D1CEC5";
+	document.getElementById("multiply-btn").style.background = "#D1CEC5";
+	document.getElementById("division-btn").style.background = "#D1CEC5";
 
 	numberBox.value = numberBox.value + "+";
 }
@@ -131,28 +131,28 @@ console.log(eval("2 + 2"));
 
 
 function pressMinus() {
-	document.getElementById("addition-btn").style.background = "white";
-	document.getElementById("minus-btn").style.background = "salmon";
-	document.getElementById("multiply-btn").style.background = "white";
-	document.getElementById("division-btn").style.background = "white";
+	document.getElementById("addition-btn").style.background = "#D1CEC5";
+	document.getElementById("minus-btn").style.background = "#5c5f5f";
+	document.getElementById("multiply-btn").style.background = "#D1CEC5";
+	document.getElementById("division-btn").style.background = "#D1CEC5";
 
 	numberBox.value = numberBox.value + "-";
 }
 
 function pressMultiply() {
-	document.getElementById("addition-btn").style.background = "white";
-	document.getElementById("minus-btn").style.background = "white";
-	document.getElementById("multiply-btn").style.background = "salmon";
-	document.getElementById("division-btn").style.background = "white";
+	document.getElementById("addition-btn").style.background = "#D1CEC5";
+	document.getElementById("minus-btn").style.background = "#D1CEC5";
+	document.getElementById("multiply-btn").style.background = "#5c5f5f";
+	document.getElementById("division-btn").style.background = "#D1CEC5";
 
 	numberBox.value = numberBox.value + "*";
 }
 
 function pressDivide() {
-	document.getElementById("addition-btn").style.background = "white";
-	document.getElementById("minus-btn").style.background = "white";
-	document.getElementById("multiply-btn").style.background = "white";
-	document.getElementById("division-btn").style.background = "salmon";
+	document.getElementById("addition-btn").style.background = "#D1CEC5";
+	document.getElementById("minus-btn").style.background = "#D1CEC5";
+	document.getElementById("multiply-btn").style.background = "#D1CEC5";
+	document.getElementById("division-btn").style.background = "#5c5f5f";
 
 	numberBox.value = numberBox.value + "/";
 }

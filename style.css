@@ -112,4 +112,8 @@ button:hover {
 	button {
 		width: 70px;
 	}
+
+	#equals-btn {
+		width: 150px;
+	}
 }

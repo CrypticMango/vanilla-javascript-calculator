@@ -102,3 +102,10 @@ button:hover {
 	background-color: var(--pastel-pink);
 	border-bottom: 4px solid #6f6fab;
 }
+
+@media (min-width: 380px) and (max-width: 420px) {
+	.calculator-container {
+		width: 340px;
+		height: 370px;
+	}
+}

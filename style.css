@@ -108,4 +108,8 @@ button:hover {
 		width: 340px;
 		height: 370px;
 	}
+
+	button {
+		width: 70px;
+	}
 }

@@ -62,9 +62,10 @@ button:hover {
 
 .calculator-container {
 	border: 1px solid white;
-	width: 320px;
-	height: 350px;
+	width: 340px;
+	height: 360px;
 	display: flex;
+	padding: 0px;
 	justify-content: center;
 	background-color: #df78a3;
 	border-radius: 20px;

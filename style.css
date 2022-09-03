@@ -103,7 +103,7 @@ button:hover {
 	border-bottom: 4px solid #6f6fab;
 }
 
-@media (min-width: 428px) and (max-width: 430px) {
+/*@media (min-width: 428px) and (max-width: 430px) {
 	.calculator-container {
 		width: 380px;
 		height: 370px;
@@ -113,3 +113,4 @@ button:hover {
 		width: 70px;
 	}
 }
+/*

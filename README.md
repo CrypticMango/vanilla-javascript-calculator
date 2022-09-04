@@ -10,3 +10,6 @@ as possible.
 
 Here is a link to the project if you would like to check it out.
 https://rainbow-churros-8983a9.netlify.app/?#
+
+
+STATUS: COMPLETE

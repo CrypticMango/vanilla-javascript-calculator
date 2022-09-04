@@ -121,6 +121,7 @@ function pressClear() {
 
 function pressPlusMinus() {
 	numberBox.value = "-" + numberBox.value.trim();
+	
 }
 
 function pressAdd() {

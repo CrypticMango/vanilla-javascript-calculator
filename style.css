@@ -43,6 +43,7 @@ button {
 button:hover {
 	background-color: #6f6fab;
 	border-bottom: 5px solid var(--pastel-yellow);
+	cursor: pointer;
 }
 
 #number-box {
